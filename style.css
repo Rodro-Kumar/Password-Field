@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(
+    to right top,
+    #7e2553,
+    #9f2059,
+    #c0175a,
+    #e00856,
+    #ff004d
+  );
+  height: 100vh;
+}
+
+.main-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.input-sec {
+  position: relative;
+}
+
+input {
+  position: relative;
+  color: #fff;
+  background-color: #ffffff46;
+  outline: 0;
+  border: 0;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding-left: 20px;
+  align-items: center;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+input::placeholder {
+  color: #fff;
+}
+
+i {
+  color: #fff;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 17px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.show {
+  display: none;
+}
